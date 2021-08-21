@@ -1,18 +1,21 @@
 body{
     color: white;
     background-color: black;
-    margin: auto;
+    text-align: center;
 }
 hr{
-    color: #707070;
+    width: 75%;
+    
+
 }
-title{
-    margin: auto;
+.Title{
+    text-align: center;
     margin-left: 10pt;
     
 }
 
-link{
-    margin-left: auto;
+.links{
+    text-align: center;
+    color: aqua;
 
 }
