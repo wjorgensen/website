@@ -8,14 +8,49 @@ hr{
     
 
 }
-.Title{
-    text-align: center;
-    margin-left: 10pt;
-    
-}
 
-.links{
+a{
     text-align: center;
     color: aqua;
+    text-decoration: none;
 
+}
+.links{
+    display: inline;
+}
+.menu{
+    padding-inline-start: 4%;
+    padding-inline-end: 4%;
+}
+.decoration{
+    border-left: 6px solid aqua;
+    height: 75%;
+    top: 20%;
+    position: absolute;
+    left: 5%;
+
+}
+.decoration-op{
+    border-left: 6px solid aqua;
+    height: 75%;
+    top: 20%;
+    position: absolute;
+    left: 95%;
+}
+.content{
+    display: flex;
+}
+.navbar{
+    display: flex;
+}
+.arrow{
+    color: white;
+}
+.Title{
+    text-align: center;
+    margin-left: 44%;
+    
+}
+.main-title{
+    text-align: center;
 }
