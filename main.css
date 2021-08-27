@@ -54,3 +54,8 @@ a{
 .main-title{
     text-align: center;
 }
+.project-link{  
+    padding-inline-start: 4%;
+    padding-inline-end: 4%;
+    font-size: 40px;
+}
