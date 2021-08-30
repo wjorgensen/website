@@ -28,20 +28,25 @@ a{
     top: 20%;
     position: absolute;
     left: 5%;
+    margin-right: 5px;
 
 }
 .decoration-op{
     border-left: 6px solid aqua;
-    height: 75%;
+    height: 100%;
     top: 20%;
     position: absolute;
     left: 95%;
 }
-.content{
+.flex-container{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .navbar{
     display: flex;
+    
 }
 .arrow{
     color: white;
@@ -58,4 +63,13 @@ a{
     padding-inline-start: 4%;
     padding-inline-end: 4%;
     font-size: 40px;
+}
+.scroll-content{
+    width: 75%;
+    height: 75%;
+    overflow: scroll;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    font-family: 'Montserrat';
 }
