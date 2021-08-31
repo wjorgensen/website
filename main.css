@@ -2,11 +2,10 @@ body{
     color: white;
     background-color: black;
     text-align: center;
+    font-family: 'Montserrat';
 }
 hr{
     width: 75%;
-    
-
 }
 
 a{
@@ -72,4 +71,18 @@ a{
     font-weight: bold;
     line-height: 40px;
     font-family: 'Montserrat';
+}
+
+.about-me-content{
+    margin: auto;
+    text-align: center;
+    padding-inline-start: 5%;
+    padding-inline-end: 5%;
+    font-size: 20px;
+    font-weight: bold;
+    line-height:  40px;
+}
+
+.blue{
+    border-color: aqua;
 }
