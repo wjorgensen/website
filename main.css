@@ -24,7 +24,7 @@ a{
 }
 .decoration{
     border-left: 6px solid aqua;
-    height: 75%;
+    height: 100%;
     top: 20%;
     position: absolute;
     left: 5%;
